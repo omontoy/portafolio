@@ -12,7 +12,7 @@ body {
 
 header {
 	width: 100%;
-	padding: 15px 0;    /*Para separar un poco el header del tope del navegador*/
+	padding: 15px 0;    
 	position: fixed;
 	background-color: rgba(48 , 48 , 48 , 0.5);
 }
@@ -20,7 +20,7 @@ header {
 
 header nav {
 	float: right;
-	margin-top: 10px;   /*Para separar un poco el nav del tope del navegador*/
+	margin-top: 10px;   
 }
 
 header nav a {
@@ -39,7 +39,7 @@ header nav a.active {
 
 #home {
 	text-align: center;
-	padding: 270px 0 150px;    /*200 arriba 0 a los lados 150 abajo*/
+	padding: 270px 0 150px;    
 }
 
 #home h1 {
@@ -97,7 +97,7 @@ header nav a.active {
 }
 
 #contact .social a {
-	text-align: center;             /*Intentar quitarlo*/
+	text-align: center;             
 	color: white;
 	display: inline-block;
 	border-radius: 50%;
@@ -118,7 +118,7 @@ header nav a.active {
 }
 
 section {
-	padding: 80px 0;     /* Arriba y abajo 80 y a los lados 0*/
+	padding: 80px 0;     
 }
 
 section h2 {
