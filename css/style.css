@@ -11,7 +11,10 @@ body {
 }
 
 header {
-	padding: 10px 0;    /*Para separar un poco el header del tope del navegador*/
+	width: 100%;
+	padding: 15px 0;    /*Para separar un poco el header del tope del navegador*/
+	position: fixed;
+	background-color: rgba(48 , 48 , 48 , 0.5);
 }
 
 
@@ -26,6 +29,7 @@ header nav a {
 	text-decoration: none;
 	margin-left: 10px;
 	padding: 10px 15px;
+	font-size: 18px;
 }
 
 header nav a.active {
@@ -35,7 +39,7 @@ header nav a.active {
 
 #home {
 	text-align: center;
-	padding: 200px 0 150px;    /*200 arriba 0 a los lados 150 abajo*/
+	padding: 270px 0 150px;    /*200 arriba 0 a los lados 150 abajo*/
 }
 
 #home h1 {
@@ -48,24 +52,44 @@ header nav a.active {
 }
 
 
+#what-I-do {
+	text-align: center;
+}
+
 #what-I-do .box {
 	display: inline-block;
-	text-align: center;
 	width: 33%;
 	padding: 10px;
 }
 
-img.editar {
+#what-I-do img {
+	width: 280px;
+	height: 200px;
+}
+
+#what-I-have-done {
+	background-color: #E0E0E0;
+	text-align: center;
+}
+
+#what-I-have-done img {
+	width: 380px;
+	height: 250px;
+}
+
+#what-I-have-done .box {
+	display: inline-block;
 	width: 33%;
+	padding: 10px;
 }
 
 #contact {
-	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/imagen.gif') no-repeat center bottom;
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/imagen.gif') no-repeat center center;
 	background-size: cover;
 	margin: 0;
-	color: white;	
+	color: black;	
 	text-align: center;
-	padding: 200px 0 150px;
+	padding: 100px 0 100px;
 }
 
 #contact .social {
@@ -98,13 +122,17 @@ section {
 }
 
 section h2 {
-	font-size: 32px;
+	font-size: 40px;
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 70px;
 }
 
-footer h2 {
-	font-size: 48px;
+section h3 {
+	font-size: 20px;
+}
+
+footer h1 {
+	font-size: 64px;
 }
 
 .container {
@@ -112,6 +140,3 @@ footer h2 {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
-
